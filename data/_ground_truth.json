@@ -1,0 +1,867 @@
+{
+ "note": "Not an input to the application. This is the key the benchmark scores DRISTI's output against. Keep it out of the app data folder.",
+ "syndicate_members": [
+  "Anil Nair",
+  "Balaji Reddy",
+  "Girish Kumar",
+  "Harish Naidu",
+  "Imran Gupta",
+  "Imran Sheikh",
+  "Iqbal Kumar",
+  "Karan Shaikh",
+  "Lakshmi Menon",
+  "Naveen Singh",
+  "Nazia Patel",
+  "Nitin Mishra",
+  "Rahul Sheikh",
+  "Rekha Choudhary",
+  "Sunil Bhat",
+  "Sunil Patel",
+  "Sunil Verma",
+  "Tarun Mishra",
+  "Tarun Yadav",
+  "Venkat Shaikh"
+ ],
+ "roles": {
+  "Imran Gupta": "kingpin",
+  "Sunil Bhat": "financier",
+  "Lakshmi Menon": "financier",
+  "Venkat Shaikh": "lieutenant",
+  "Nitin Mishra": "lieutenant",
+  "Tarun Mishra": "lieutenant",
+  "Karan Shaikh": "lieutenant",
+  "Girish Kumar": "broker",
+  "Nazia Patel": "broker",
+  "Sunil Verma": "courier",
+  "Imran Sheikh": "courier",
+  "Naveen Singh": "courier",
+  "Iqbal Kumar": "courier",
+  "Harish Naidu": "mule",
+  "Tarun Yadav": "mule",
+  "Rekha Choudhary": "mule",
+  "Balaji Reddy": "mule",
+  "Anil Nair": "mule",
+  "Sunil Patel": "courier",
+  "Rahul Sheikh": "courier",
+  "Karan Pillai": "civilian",
+  "Praveen Pillai": "civilian",
+  "Praveen Gupta": "civilian",
+  "Tarun Verma": "civilian",
+  "Arjun Joshi": "civilian",
+  "Sunil Joshi": "civilian",
+  "Pankaj Reddy": "civilian",
+  "Pankaj Mishra": "civilian",
+  "Rekha Desai": "civilian",
+  "Suresh Bhat": "civilian",
+  "Kavita Kumar": "civilian",
+  "Rekha Iyer": "civilian",
+  "Arjun Bhat": "civilian",
+  "Venkat Menon": "civilian",
+  "Yusuf Naidu": "civilian",
+  "Nazia Sharma": "civilian",
+  "Anjali Nair": "civilian",
+  "Harish Patel": "civilian",
+  "Yusuf Gupta": "civilian",
+  "Lakshmi Joshi": "civilian",
+  "Rekha Sheikh": "civilian",
+  "Pankaj Singh": "civilian",
+  "Satish Patel": "civilian",
+  "Sanjay Desai": "civilian",
+  "Suresh Iyer": "civilian",
+  "Praveen Choudhary": "civilian",
+  "Ravi Patel": "civilian",
+  "Mohan Menon": "civilian",
+  "Tarun Menon": "civilian",
+  "Satish Joshi": "civilian",
+  "Arjun Choudhary": "civilian",
+  "Rekha Pillai": "civilian",
+  "Vikram Bhat": "civilian",
+  "Iqbal Ansari": "civilian",
+  "Abdul Shaikh": "civilian",
+  "Satish Gupta": "civilian",
+  "Nitin Khan": "civilian",
+  "Salim Khan": "civilian",
+  "Naveen Shaikh": "civilian",
+  "Mohan Singh": "civilian",
+  "Vikram Ansari": "civilian",
+  "Suresh Sharma": "civilian",
+  "Vikram Choudhary": "civilian",
+  "Iqbal Pillai": "civilian",
+  "Naveen Nair": "civilian",
+  "Kavita Sheikh": "civilian",
+  "Salim Patel": "civilian",
+  "Pankaj Prasad": "civilian",
+  "Ashok Gupta": "civilian",
+  "Srinivas Iyer": "civilian",
+  "Arjun Nair": "civilian",
+  "Balaji Mishra": "civilian",
+  "Dinesh Reddy": "civilian",
+  "Ashok Desai": "civilian",
+  "Nitin Gupta": "civilian",
+  "Arjun Sharma": "civilian",
+  "Manoj Rao": "civilian",
+  "Shabana Kumar": "civilian",
+  "Rakesh Nair": "civilian",
+  "Iqbal Joshi": "civilian",
+  "Ramesh Gupta": "civilian",
+  "Nazia Singh": "civilian"
+ },
+ "anomalous_transactions": {
+  "T0003": "structuring",
+  "T0004": "structuring",
+  "T0007": "structuring",
+  "T0008": "structuring",
+  "T0012": "structuring",
+  "T0016": "structuring",
+  "T0020": "structuring",
+  "T0044": "structuring",
+  "T0050": "structuring",
+  "T0079": "structuring",
+  "T0081": "structuring",
+  "T0092": "structuring",
+  "T0096": "structuring",
+  "T0128": "structuring",
+  "T0130": "structuring",
+  "T0134": "structuring",
+  "T0175": "structuring",
+  "T0190": "structuring",
+  "T0191": "structuring",
+  "T0197": "structuring",
+  "T0230": "structuring",
+  "T0234": "value_outlier",
+  "T0236": "value_outlier",
+  "T0239": "structuring",
+  "T0246": "structuring",
+  "T0254": "structuring"
+ },
+ "anomalous_people": [
+  "Balaji Reddy",
+  "Girish Kumar",
+  "Harish Naidu",
+  "Imran Sheikh",
+  "Iqbal Kumar",
+  "Lakshmi Menon",
+  "Naveen Singh",
+  "Nazia Patel",
+  "Rahul Sheikh",
+  "Rekha Choudhary",
+  "Sunil Bhat",
+  "Sunil Patel",
+  "Sunil Verma",
+  "Tarun Yadav"
+ ],
+ "true_associations": [
+  [
+   "Anil Nair",
+   "Rekha Iyer"
+  ],
+  [
+   "Arjun Bhat",
+   "Ashok Desai"
+  ],
+  [
+   "Arjun Bhat",
+   "Rakesh Nair"
+  ],
+  [
+   "Arjun Bhat",
+   "Sanjay Desai"
+  ],
+  [
+   "Arjun Bhat",
+   "Satish Patel"
+  ],
+  [
+   "Arjun Bhat",
+   "Yusuf Naidu"
+  ],
+  [
+   "Arjun Choudhary",
+   "Balaji Mishra"
+  ],
+  [
+   "Arjun Choudhary",
+   "Rakesh Nair"
+  ],
+  [
+   "Arjun Joshi",
+   "Iqbal Pillai"
+  ],
+  [
+   "Arjun Nair",
+   "Ramesh Gupta"
+  ],
+  [
+   "Ashok Desai",
+   "Manoj Rao"
+  ],
+  [
+   "Ashok Gupta",
+   "Arjun Nair"
+  ],
+  [
+   "Balaji Reddy",
+   "Salim Patel"
+  ],
+  [
+   "Girish Kumar",
+   "Balaji Reddy"
+  ],
+  [
+   "Girish Kumar",
+   "Iqbal Kumar"
+  ],
+  [
+   "Girish Kumar",
+   "Manoj Rao"
+  ],
+  [
+   "Girish Kumar",
+   "Naveen Shaikh"
+  ],
+  [
+   "Girish Kumar",
+   "Naveen Singh"
+  ],
+  [
+   "Girish Kumar",
+   "Rahul Sheikh"
+  ],
+  [
+   "Girish Kumar",
+   "Sunil Patel"
+  ],
+  [
+   "Girish Kumar",
+   "Sunil Verma"
+  ],
+  [
+   "Harish Naidu",
+   "Anil Nair"
+  ],
+  [
+   "Harish Naidu",
+   "Balaji Reddy"
+  ],
+  [
+   "Harish Patel",
+   "Arjun Sharma"
+  ],
+  [
+   "Harish Patel",
+   "Lakshmi Joshi"
+  ],
+  [
+   "Harish Patel",
+   "Nitin Gupta"
+  ],
+  [
+   "Harish Patel",
+   "Rekha Pillai"
+  ],
+  [
+   "Harish Patel",
+   "Rekha Sheikh"
+  ],
+  [
+   "Harish Patel",
+   "Salim Patel"
+  ],
+  [
+   "Imran Gupta",
+   "Karan Shaikh"
+  ],
+  [
+   "Imran Gupta",
+   "Lakshmi Menon"
+  ],
+  [
+   "Imran Gupta",
+   "Nitin Mishra"
+  ],
+  [
+   "Imran Gupta",
+   "Sunil Bhat"
+  ],
+  [
+   "Imran Gupta",
+   "Tarun Mishra"
+  ],
+  [
+   "Imran Gupta",
+   "Venkat Shaikh"
+  ],
+  [
+   "Imran Sheikh",
+   "Arjun Nair"
+  ],
+  [
+   "Imran Sheikh",
+   "Balaji Reddy"
+  ],
+  [
+   "Imran Sheikh",
+   "Iqbal Kumar"
+  ],
+  [
+   "Imran Sheikh",
+   "Tarun Yadav"
+  ],
+  [
+   "Iqbal Ansari",
+   "Suresh Sharma"
+  ],
+  [
+   "Iqbal Ansari",
+   "Vikram Ansari"
+  ],
+  [
+   "Iqbal Kumar",
+   "Harish Naidu"
+  ],
+  [
+   "Iqbal Kumar",
+   "Manoj Rao"
+  ],
+  [
+   "Iqbal Pillai",
+   "Ashok Desai"
+  ],
+  [
+   "Karan Pillai",
+   "Ravi Patel"
+  ],
+  [
+   "Karan Shaikh",
+   "Girish Kumar"
+  ],
+  [
+   "Karan Shaikh",
+   "Nazia Patel"
+  ],
+  [
+   "Kavita Kumar",
+   "Arjun Choudhary"
+  ],
+  [
+   "Kavita Kumar",
+   "Lakshmi Joshi"
+  ],
+  [
+   "Kavita Kumar",
+   "Rakesh Nair"
+  ],
+  [
+   "Kavita Sheikh",
+   "Dinesh Reddy"
+  ],
+  [
+   "Lakshmi Joshi",
+   "Pankaj Prasad"
+  ],
+  [
+   "Lakshmi Menon",
+   "Anil Nair"
+  ],
+  [
+   "Lakshmi Menon",
+   "Arjun Choudhary"
+  ],
+  [
+   "Lakshmi Menon",
+   "Balaji Reddy"
+  ],
+  [
+   "Lakshmi Menon",
+   "Harish Naidu"
+  ],
+  [
+   "Lakshmi Menon",
+   "Rekha Choudhary"
+  ],
+  [
+   "Mohan Menon",
+   "Nitin Gupta"
+  ],
+  [
+   "Mohan Menon",
+   "Salim Patel"
+  ],
+  [
+   "Mohan Singh",
+   "Manoj Rao"
+  ],
+  [
+   "Mohan Singh",
+   "Rakesh Nair"
+  ],
+  [
+   "Mohan Singh",
+   "Suresh Sharma"
+  ],
+  [
+   "Naveen Nair",
+   "Pankaj Prasad"
+  ],
+  [
+   "Naveen Shaikh",
+   "Arjun Sharma"
+  ],
+  [
+   "Naveen Singh",
+   "Rekha Choudhary"
+  ],
+  [
+   "Naveen Singh",
+   "Tarun Yadav"
+  ],
+  [
+   "Nazia Patel",
+   "Rahul Sheikh"
+  ],
+  [
+   "Nazia Patel",
+   "Rekha Choudhary"
+  ],
+  [
+   "Nazia Patel",
+   "Salim Patel"
+  ],
+  [
+   "Nazia Patel",
+   "Sunil Patel"
+  ],
+  [
+   "Nazia Patel",
+   "Tarun Yadav"
+  ],
+  [
+   "Nazia Sharma",
+   "Nazia Singh"
+  ],
+  [
+   "Nazia Sharma",
+   "Ramesh Gupta"
+  ],
+  [
+   "Nazia Sharma",
+   "Ravi Patel"
+  ],
+  [
+   "Nazia Sharma",
+   "Tarun Menon"
+  ],
+  [
+   "Nazia Sharma",
+   "Vikram Bhat"
+  ],
+  [
+   "Nitin Khan",
+   "Iqbal Pillai"
+  ],
+  [
+   "Nitin Khan",
+   "Kavita Sheikh"
+  ],
+  [
+   "Nitin Khan",
+   "Ramesh Gupta"
+  ],
+  [
+   "Nitin Mishra",
+   "Girish Kumar"
+  ],
+  [
+   "Nitin Mishra",
+   "Karan Shaikh"
+  ],
+  [
+   "Nitin Mishra",
+   "Nazia Patel"
+  ],
+  [
+   "Nitin Mishra",
+   "Tarun Mishra"
+  ],
+  [
+   "Pankaj Mishra",
+   "Ramesh Gupta"
+  ],
+  [
+   "Pankaj Prasad",
+   "Nitin Gupta"
+  ],
+  [
+   "Pankaj Reddy",
+   "Arjun Sharma"
+  ],
+  [
+   "Pankaj Reddy",
+   "Ashok Gupta"
+  ],
+  [
+   "Pankaj Reddy",
+   "Nitin Gupta"
+  ],
+  [
+   "Pankaj Reddy",
+   "Rekha Sheikh"
+  ],
+  [
+   "Pankaj Reddy",
+   "Srinivas Iyer"
+  ],
+  [
+   "Praveen Choudhary",
+   "Ashok Gupta"
+  ],
+  [
+   "Praveen Choudhary",
+   "Naveen Shaikh"
+  ],
+  [
+   "Praveen Gupta",
+   "Lakshmi Joshi"
+  ],
+  [
+   "Praveen Gupta",
+   "Rekha Desai"
+  ],
+  [
+   "Praveen Gupta",
+   "Rekha Iyer"
+  ],
+  [
+   "Praveen Pillai",
+   "Kavita Sheikh"
+  ],
+  [
+   "Praveen Pillai",
+   "Satish Patel"
+  ],
+  [
+   "Praveen Pillai",
+   "Vikram Ansari"
+  ],
+  [
+   "Praveen Pillai",
+   "Yusuf Gupta"
+  ],
+  [
+   "Ravi Patel",
+   "Arjun Sharma"
+  ],
+  [
+   "Ravi Patel",
+   "Pankaj Prasad"
+  ],
+  [
+   "Rekha Choudhary",
+   "Anil Nair"
+  ],
+  [
+   "Rekha Choudhary",
+   "Sunil Patel"
+  ],
+  [
+   "Rekha Desai",
+   "Balaji Mishra"
+  ],
+  [
+   "Rekha Desai",
+   "Venkat Menon"
+  ],
+  [
+   "Rekha Desai",
+   "Yusuf Gupta"
+  ],
+  [
+   "Rekha Iyer",
+   "Rakesh Nair"
+  ],
+  [
+   "Rekha Iyer",
+   "Vikram Bhat"
+  ],
+  [
+   "Rekha Pillai",
+   "Arjun Nair"
+  ],
+  [
+   "Rekha Pillai",
+   "Ashok Gupta"
+  ],
+  [
+   "Rekha Pillai",
+   "Shabana Kumar"
+  ],
+  [
+   "Rekha Sheikh",
+   "Manoj Rao"
+  ],
+  [
+   "Salim Khan",
+   "Suresh Sharma"
+  ],
+  [
+   "Sanjay Desai",
+   "Kavita Sheikh"
+  ],
+  [
+   "Sanjay Desai",
+   "Vikram Choudhary"
+  ],
+  [
+   "Satish Gupta",
+   "Manoj Rao"
+  ],
+  [
+   "Satish Joshi",
+   "Naveen Shaikh"
+  ],
+  [
+   "Satish Joshi",
+   "Nazia Singh"
+  ],
+  [
+   "Satish Joshi",
+   "Rakesh Nair"
+  ],
+  [
+   "Satish Joshi",
+   "Vikram Ansari"
+  ],
+  [
+   "Satish Patel",
+   "Arjun Sharma"
+  ],
+  [
+   "Satish Patel",
+   "Manoj Rao"
+  ],
+  [
+   "Srinivas Iyer",
+   "Iqbal Joshi"
+  ],
+  [
+   "Srinivas Iyer",
+   "Manoj Rao"
+  ],
+  [
+   "Sunil Bhat",
+   "Anil Nair"
+  ],
+  [
+   "Sunil Bhat",
+   "Ashok Desai"
+  ],
+  [
+   "Sunil Bhat",
+   "Balaji Reddy"
+  ],
+  [
+   "Sunil Bhat",
+   "Tarun Yadav"
+  ],
+  [
+   "Sunil Joshi",
+   "Anjali Nair"
+  ],
+  [
+   "Sunil Joshi",
+   "Arjun Choudhary"
+  ],
+  [
+   "Sunil Joshi",
+   "Iqbal Pillai"
+  ],
+  [
+   "Sunil Joshi",
+   "Rekha Desai"
+  ],
+  [
+   "Sunil Joshi",
+   "Rekha Pillai"
+  ],
+  [
+   "Sunil Joshi",
+   "Satish Gupta"
+  ],
+  [
+   "Sunil Patel",
+   "Tarun Verma"
+  ],
+  [
+   "Sunil Verma",
+   "Harish Naidu"
+  ],
+  [
+   "Sunil Verma",
+   "Iqbal Kumar"
+  ],
+  [
+   "Sunil Verma",
+   "Pankaj Reddy"
+  ],
+  [
+   "Sunil Verma",
+   "Rakesh Nair"
+  ],
+  [
+   "Sunil Verma",
+   "Rekha Choudhary"
+  ],
+  [
+   "Suresh Bhat",
+   "Iqbal Ansari"
+  ],
+  [
+   "Suresh Bhat",
+   "Pankaj Prasad"
+  ],
+  [
+   "Suresh Bhat",
+   "Ramesh Gupta"
+  ],
+  [
+   "Suresh Iyer",
+   "Abdul Shaikh"
+  ],
+  [
+   "Suresh Iyer",
+   "Arjun Choudhary"
+  ],
+  [
+   "Suresh Iyer",
+   "Nitin Gupta"
+  ],
+  [
+   "Suresh Sharma",
+   "Arjun Sharma"
+  ],
+  [
+   "Suresh Sharma",
+   "Iqbal Pillai"
+  ],
+  [
+   "Suresh Sharma",
+   "Nazia Singh"
+  ],
+  [
+   "Suresh Sharma",
+   "Pankaj Prasad"
+  ],
+  [
+   "Suresh Sharma",
+   "Salim Patel"
+  ],
+  [
+   "Tarun Menon",
+   "Nazia Singh"
+  ],
+  [
+   "Tarun Menon",
+   "Rekha Pillai"
+  ],
+  [
+   "Tarun Menon",
+   "Satish Joshi"
+  ],
+  [
+   "Tarun Mishra",
+   "Abdul Shaikh"
+  ],
+  [
+   "Tarun Mishra",
+   "Girish Kumar"
+  ],
+  [
+   "Tarun Mishra",
+   "Nazia Patel"
+  ],
+  [
+   "Tarun Verma",
+   "Arjun Joshi"
+  ],
+  [
+   "Tarun Verma",
+   "Mohan Singh"
+  ],
+  [
+   "Tarun Verma",
+   "Nitin Khan"
+  ],
+  [
+   "Tarun Verma",
+   "Pankaj Prasad"
+  ],
+  [
+   "Tarun Yadav",
+   "Suresh Iyer"
+  ],
+  [
+   "Venkat Menon",
+   "Iqbal Ansari"
+  ],
+  [
+   "Venkat Menon",
+   "Kavita Sheikh"
+  ],
+  [
+   "Venkat Menon",
+   "Pankaj Prasad"
+  ],
+  [
+   "Venkat Shaikh",
+   "Girish Kumar"
+  ],
+  [
+   "Venkat Shaikh",
+   "Karan Shaikh"
+  ],
+  [
+   "Venkat Shaikh",
+   "Nazia Patel"
+  ],
+  [
+   "Venkat Shaikh",
+   "Nitin Mishra"
+  ],
+  [
+   "Vikram Bhat",
+   "Pankaj Prasad"
+  ],
+  [
+   "Vikram Choudhary",
+   "Salim Patel"
+  ],
+  [
+   "Yusuf Gupta",
+   "Balaji Mishra"
+  ],
+  [
+   "Yusuf Gupta",
+   "Nazia Singh"
+  ],
+  [
+   "Yusuf Gupta",
+   "Nitin Gupta"
+  ],
+  [
+   "Yusuf Naidu",
+   "Harish Patel"
+  ],
+  [
+   "Yusuf Naidu",
+   "Nazia Singh"
+  ]
+ ],
+ "counts": {
+  "persons": 82,
+  "calls": 2522,
+  "transactions": 254,
+  "vehicles": 35,
+  "locations": 14,
+  "evidence": 2811
+ }
+}
